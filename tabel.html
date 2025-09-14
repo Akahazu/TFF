@@ -1,18 +1,48 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title> Learn how to make a table</title>
-  </head>
-  <body>
-      <table border=1 bgcolor="white" width=300 height=100>
-        <tr height=30>
-          <td>Baris 1 kolom 1</td>
-          <td>Baris 1 kolom 2</td>
-        </tr>
-        <tr height=70>
-          <td>Baris 2 kolom 1</td>
-          <td>Baris 2 kolom 2</td>
-        </tr>
-      </table>
-  </body>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Learn how to make a table</title>
+  <style>
+    body {
+      font-family: Verdana, sans-serif; /* ganti font */
+      background: #f4f4f4;
+      text-align: center;
+      padding: 40px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 300px;
+      margin: auto;
+      background: white;
+    }
+
+    td {
+      border: 1px solid #555;
+      padding: 10px;
+    }
+
+    tr:nth-child(even) {
+      background: #f0f0f0; /* warna selang-seling */
+    }
+  </style>
+</head>
+<body>
+  <h2>This is a Table</h2>
+  <table>
+    <tr>
+      <td>Baris 1 kolom 1</td>
+      <td>Baris 1 kolom 2</td>
+    </tr>
+    <tr>
+      <td>Baris 2 kolom 1</td>
+      <td>Baris 2 kolom 2</td>
+    </tr>
+  </table>
+</body>
 </html>
